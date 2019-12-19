@@ -2,7 +2,7 @@
 
 ## Description
 
-The folder Pymaceuticals contains a notebook document for Jupyter Notebook.  It expects two csv files in a subdirectory data, clinicaltrial_data.csv and mouse_drug_data.csv.  Sample contents of these files are below.
+The folder Pymaceuticals contains a notebook document for Jupyter Notebook, `pymaceuticals.ipynb`.  It expects two csv files in a subdirectory data, `clinicaltrial_data.csv` and `mouse_drug_data.csv`.  Sample contents of these files are below.
 
 ### clinicaltrial_data.csv
 
@@ -20,12 +20,12 @@ The folder Pymaceuticals contains a notebook document for Jupyter Notebook.  It 
 | x402     | Stelasyn |
 | a492     | Stelasyn |
 
-An analysis is done on the four treatments, namely, Capomulin, Infubinol, Ketapril, and Placebo.  The notebook creates and saves the following plots as png files in the Images subfolder, which may be also be viewed below.
+An analysis is done on four treatments, namely, Capomulin, Infubinol, Ketapril, and Placebo.  The notebook creates and saves the following plots as png files in the `Images` subfolder, which may be also be viewed below.
 
-* A scatter plot showing tumor volume changes over time for each treatment.
-* A scatter plot showing the number of metastic sites over time for each treatment.
-* A scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate) and a Kaplan-Meier 
-* A bar graph that compares the total % tumor volume change for each treatment across the full 45 days.
+* A scatter plot showing tumor volume changes over time for each treatment (`treatment.png`).
+* A scatter plot showing the number of metastic sites over time for each treatment (`spread.png`).
+* A scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate) and a Kaplan–Meier estimator (`survival.png`,`survival-Kaplan-Meier.png`).
+* A bar graph that compares the total % tumor volume change for each treatment across the full 45 days (`change.png`).
 
 ## Observations
 
